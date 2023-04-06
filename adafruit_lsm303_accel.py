@@ -48,7 +48,7 @@ except ImportError:
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_LSM303_Accel.git"
 
-_ADDRESS_ACCEL = const(0x19)  # (0x32 >> 1)       // 0011001x
+_ADDRESS_ACCEL = const(0x18)  # (0x32 >> 1)       // 0011001x
 _ADDRESS_MAG = const(0x1E)  # (0x3C >> 1)       // 0011110x
 _ID = const(0xD4)  # (0b11010100)
 
